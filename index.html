@@ -4,55 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creating a Basic HTML Template</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>HTML Basic</h1>
-    </header>
-    <p>It is cool using HTML</p>
-    <p>Submit your form here for more update</p>
-    <form>
-      <label for="name">Full Name</label>
-      <input type="text" id="name" />
-      <br />
-      <br />
-      <label for="age">Age</label>
-      <input type="number" id="age" />
-      <br />
-      <br />
-      <label for="address">Address</label>
-      <input type="text" id="address" />
-      <br />
-      <br />
-      <input type="button" value="Submit" />
-    </form>
-    <table border="3px">
-      <tr>
-        <th>S/N</th>
-        <th>Name</th>
-        <th>Age</th>
-        <th>Address</th>
-      </tr>
-      <tr>
-        <td>1</td>
-        <td>Jame Paul</td>
-        <td>28</td>
-        <td>Roland Area, Nigeria</td>
-      </tr>
-      <tr>
-        <td>2</td>
-        <td>Emake Amos</td>
-        <td>31</td>
-        <td>No 8, Enugu, Nigeria</td>
-      </tr>
-    </table>
-    <img
-      src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Mtg5x3F7DBcIkmuDWEDB2gHaKc%26pid%3DApi&sp=1725014537T26401bdc4243fe4ced2bb5ff2d609057c72d937476fef07325da8c09c2458c0e"
-      alt="student hold book"
-      width="300px"
-    />
-    <br />
-    <br />
-    <a href="https://google.com">Google</a>
+    <div class="container">
+      <header>
+        <h1>HTML Basic</h1>
+      </header>
+      <p>It is cool using HTML</p>
+      <form>
+        <h3>Submit your form here for more update</h3>
+        <div>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" />
+        </div>
+        <hr />
+        <div>
+          <label for="age">Age</label>
+          <input type="number" id="age" />
+        </div>
+        <hr />
+        <div>
+          <label for="address">Address</label>
+          <input type="text" id="address" />
+        </div>
+        <hr />
+
+        <input class="btn" type="button" value="Submit" />
+      </form>
+      <table>
+        <tr>
+          <th>S/N</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Jame Paul</td>
+          <td>28</td>
+          <td>Roland Area, Nigeria</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Emake Amos</td>
+          <td>31</td>
+          <td>No 8, Enugu, Nigeria</td>
+        </tr>
+      </table>
+      <img
+        src="https://www.pexels.com/photo/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996/"
+        alt="man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling"
+        width="300px"
+      />
+
+      <a href="https://google.com">Google</a>
+    </div>
   </body>
 </html>
