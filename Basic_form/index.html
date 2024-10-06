@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BASIC FORM</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>BASIC FORM</h1>
+      <form action="" id="form">
+        <div class="inputControl">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your full name" />
+          <div class="error"></div>
+        </div>
+        <div class="inputControl">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+          <div class="error"></div>
+        </div>
+        <div class="inputControl">
+          <label for="psw">Password</label>
+          <input
+            type="password"
+            id="psw"
+            placeholder="Enter your full password"
+          />
+          <div class="error"></div>
+        </div>
+        <div class="inputControl">
+          <label for="psw_2">Confirm Password</label>
+          <input type="password" id="psw_2" placeholder="Confirm password" />
+          <div class="error"></div>
+        </div>
+        <div class="inputControl">
+          <label for="age">Age</label>
+          <input type="number" id="age" placeholder="Enter your age" />
+          <div class="error"></div>
+        </div>
+        <div class="inputControl">
+          <input type="radio" id="gender" name="gender" checked />
+          <label for="gender" class="gender">Male</label>
+          <input type="radio" id="gender2" name="gender" />
+          <label for="gender" class="gender">Female</label>
+          <div class="error"></div>
+        </div>
+        <div class="inputControl">
+          <label for="age">Country</label>
+          <select name="country" id="country">
+            <option value="nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="usa">USA</option>
+            <option value="togo">Togo</option>
+          </select>
+        </div>
+        <div class="inputControl">
+          <input type="checkbox" id="terms" />
+          <label for="terms" class="terms">Terms and Condition</label>
+          <div class="error"></div>
+        </div>
+        <div class="inputControl">
+          <input type="submit" id="submit" value="Sign Up" class="sumbit" />
+        </div>
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
