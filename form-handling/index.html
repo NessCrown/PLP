@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Handling</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Handling</h1>
+      <form id="userForm">
+        <div class="box">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" autocomplete="off" />
+        </div>
+
+        <div class="box">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" autocomplete="off" />
+        </div>
+
+        <div class="box">
+          <label for="contactMethod">Preferred Contact Method:</label>
+          <select id="contactMethod" name="contactMethod">
+            <option value="">Select</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+          </select>
+        </div>
+
+        <div class="box">
+          <input type="checkbox" id="terms" name="terms" />
+          <label for="terms">I accept terms and conditions:</label>
+        </div>
+        <div class="box">
+          <input type="submit" value="Submit" id="sumbit" />
+        </div>
+      </form>
+
+      <div id="formSummary" class="form-summary"></div>
+    </div>
+    <div class="message">
+      <p class="mName">Name: <span class="previewItem preName"></span></p>
+      <p>Email: <span class="previewItem preEmail"></span></p>
+      <p>Preferred Contact: <span class="previewItem preContact"> </span></p>
+      <p>Terms Accepted: <span class="previewItem preTerms"> </span></p>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
