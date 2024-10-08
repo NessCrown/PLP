@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(143, 193, 236);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  min-height: 300px;
+  background-color: white;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 0.5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 30px;
+}
+
+#userForm {
+  text-align: left;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.box {
+  margin-bottom: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 5px 10px;
+  margin-top: 5px;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  background-color: rgb(231, 224, 224);
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 8px 12px;
+  text-transform: uppercase;
+  background-color: green;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.message {
+  background-color: white;
+  width: 400px;
+  min-height: 180px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.message p {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+#formSummary {
+  color: red;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.preContact {
+  text-transform: capitalize;
+}
